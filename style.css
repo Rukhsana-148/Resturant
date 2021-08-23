@@ -1,0 +1,152 @@
+*{
+    box-sizing : border-box;
+    margin : 0;
+    padding : 0;
+
+}
+.container{
+    max-width: 1368px;
+    
+}
+.top{
+    position : fixed;
+    width : 100%;
+    background-color: rgb(9, 114, 182);
+    z-index: 99;
+    border-bottom: 2px solid white;
+}
+.row{
+    display: flex;
+    flex-wrap : wrap;
+}
+nav{
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 10px;
+    font-size : 13px;
+    color : white;
+    list-style : none;
+    text-align: right;
+}
+.top a{
+       color : white;
+       text-decoration: none;
+}
+.top a:hover{
+    border-bottom : 1px solid white;
+    transition-delay: 0.5s;
+    transform-style: preserve-3d;
+}
+  
+  .home{
+    z-index : -1;
+      
+      padding-top: 100px;
+      width : 90%;
+      text-align: center;
+  }
+  .home img{
+      width : 90%;
+      height : 80%;
+  }
+  .home p i{
+      color : green;
+      padding-right: 1px;
+  }
+  .about{
+    position : relative;
+    padding-top : 60px;
+    background-color: rgb(9, 114, 182);
+    color : white;
+    padding-bottom: 30px;
+  }
+  .about:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('about.jpg') center/cover no-repeat;
+    transition: 1s;
+    font-size : 16px;
+  }
+  .about h3{
+    text-align: center;
+  }
+  .about .col-sm-12{
+    text-align: center;
+  }
+  .about .icon {
+    padding-top: 20px;
+  }
+  .service{
+    position : absolute;
+    padding-top: 70px;
+    width : 100%;
+  }
+  .service .col-sm-12{
+    text-align: center;
+  }
+  .service .col-sm-12 p{
+    width : 100%;
+  }
+  .contact .col-sm-5:hover{
+    color : rgb(53, 0, 139);
+    border-radius: 25px;
+    padding: 50px 20px;
+    transition: 3s;
+    margin-top : -50px;
+    border : 1px solid darkblue;
+    background-color : white;
+
+  }
+  .service .col-sm-12 p span{
+    border-right: 1px solid gray;
+    border-bottom: 1px solid grey;
+    padding: 5px 20px;
+    background : linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('span.jpg') center/cover no-repeat;
+    color : white;
+    cursor: pointer;
+  }
+  .food-1, .room-1, .wifi-1, .elect-1 , .evn-1{
+    padding-top: 30px;
+    font-weight : 400;
+    
+    color : darkblue;
+  }
+  
+  .food-1:hover, .room-1:hover, .wifi-1:hover, .elect-1:hover , .evn-1:hover{
+    background-color: darkblue;
+    color : white;
+    padding-bottom: 30px;
+    transition: 1s;
+  }
+  .wifi-1 img{
+    width : 300px;
+    height : 300px;
+  }
+.contact{
+  padding-top: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(212, 130, 130, 0.6)), url('bgg.jpg') center/cover no-repeat;
+  
+  
+  color : white;
+}
+.contact:hover{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.6)), url('images\ \(8\).jpg') center/cover no-repeat;
+  transition : 2s;
+}
+.contact .row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.contact h3{
+  text-align: center;
+}
+.contact i{
+  margin-bottom : 10px;
+}
+.home li img{
+  width : 50px;
+  height : 50px;
+  cursor: pointer;
+}
